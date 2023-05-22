@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container-one{
+    width: 25%;
+}
+
+@media screen and (max-width:900px){
+    .container-one{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px){
+    .container-one{
+        width: 90%;
+    }
+}
